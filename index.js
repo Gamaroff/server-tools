@@ -10,8 +10,6 @@ var sockets = require('./lib/sockets');
 var mailer = require('./lib/mailer');
 var prototypes = require('./lib/prototypes');
 
-
-
 module.exports = {
     tools           : tools,
     mongo_repository: mongoRepo,
