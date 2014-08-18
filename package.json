@@ -1,6 +1,6 @@
 {
   "name": "server-tools",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Library of common stuff for projects",
   "main": "index.js",
   "scripts": {
@@ -29,9 +29,9 @@
   },
   "devDependencies": {
     "blanket": "*",
-    "chai": "^1.9.1",
+    "chai": "~1.9.1",
     "coveralls": "*",
-    "mocha": "^1.21.4",
+    "mocha": "~1.21.4",
     "mocha-lcov-reporter": "*",
     "should": "*",
     "travis-cov": "*"
@@ -46,6 +46,6 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "author": "gamaroff <gamaroff@gmail.com>",
+  "author": "gamaroff <lorien@gamaroff.orgm>",
   "license": "MIT"
 }
