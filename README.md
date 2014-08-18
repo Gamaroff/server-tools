@@ -1,11 +1,5 @@
-server-tools [![Build Status](https://secure.travis-ci.org/gamaroff/server-tools.png)](http://travis-ci.org/gamaroff/server-tools) [![Coverage Status](https://coveralls.io/repos/gamaroff/server-tools/badge.png)](https://coveralls.io/r/gamaroff/server-tools)
+server-tools [![Build Status](https://travis-ci.org/Gamaroff/server-tools.svg?branch=master)]
 =======
-
-![logo](https://raw.github.com/gamaroff/server-tools/master/logo.png)
-
-Description
-
-* jscoverage: [100%](http://gamaroff.github.com/coverage/server-tools.html)
 
 ## Install
 
@@ -16,9 +10,9 @@ $ npm install server-tools
 ## Usage
 
 ```js
-var server-tools = require('server-tools');
+var tools = require('server-tools');
 
-server-tools.server-tools(function (err) {
+tools.logger(function (err) {
   
 });
 ```
