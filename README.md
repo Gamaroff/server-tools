@@ -1,6 +1,8 @@
 server-tools [![Build Status](https://travis-ci.org/Gamaroff/server-tools.svg?branch=master)]
 =======
 
+This is a library with common stuff. 
+
 ## Install
 
 ```bash
@@ -10,18 +12,23 @@ $ npm install server-tools
 ## Usage
 
 ```js
-var tools = require('server-tools');
+var repository = require('server-tools').mongo_repository;
+var model = require('server-tools').mongo_model;
+var promises = require('server-tools').promises;
+var promise = require('server-tools').promise;
+var logger = require('server-tools').logger;
+var mailer = require('server-tools').mailer;
+var blob = require('server-tools').blob_storage;
+var rabbit = require('server-tools').rabbit;
+var sockets = require('server-tools').sockets;
 
-tools.logger(function (err) {
-  
-});
 ```
 
 ## License 
 
 (The MIT License)
 
-Copyright (c) 2013 gamaroff &lt;gamaroff@gmail.com&gt;
+Copyright (c) 2013 gamaroff &lt;lorien@gamaroff.org&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
