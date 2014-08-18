@@ -3,7 +3,7 @@ var mongoRepo = require('./lib/mongoRepository');
 var logger = require('./lib/logger');
 
 module.exports = {
-    tools           : new tools(),
+    tools           : tools,
     mongo_repository: mongoRepo,
     logger          : new logger()
 };
