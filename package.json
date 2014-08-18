@@ -1,6 +1,6 @@
 {
   "name": "server-tools",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Library of common stuff for projects",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,6 @@
     "underscore": "~1.6.0"
   },
   "devDependencies": {
-    "blanket": "*",
     "chai": "~1.9.1",
     "coveralls": "*",
     "mocha": "~1.21.4",
