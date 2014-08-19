@@ -5,6 +5,7 @@ var logger = require('./lib/logger');
 var blob = require('./lib/blobStorage');
 var promises = require('./lib/promises');
 var promise = require('./lib/promise');
+var redis = require('./lib/redis');
 var rabbit = require('./lib/rabbit');
 var mailer = require('./lib/mailer');
 var prototypes = require('./lib/prototypes');
@@ -18,5 +19,6 @@ module.exports = {
     blob_storage    : blob,
     promises        : promises,
     promise         : promise,
+    redis         : redis,
     rabbit          : rabbit
 };

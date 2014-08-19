@@ -1,6 +1,6 @@
 {
     "name"           : "server-tools",
-    "version"        : "0.1.0",
+    "version"        : "0.1.1",
     "description"    : "Library of common stuff for projects",
     "main"           : "index.js",
     "scripts"        : {
@@ -43,6 +43,16 @@
     "engines"        : {
         "node": ">= 0.10.0"
     },
-    "author"         : "gamaroff <lorien@gamaroff.orgm>",
-    "license"        : "MIT"
+    "author"         : "gamaroff <lorien@gamaroff.org>",
+    "contributors"   : [
+        {
+            "name": "Hylton Tocker"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/postwait/node-amqp/raw/master/LICENSE-MIT"
+        }
+    ]
 }

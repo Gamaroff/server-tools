@@ -22,6 +22,10 @@ var blob = require('server-tools').blob_storage;
 var rabbit = require('server-tools').rabbit;
 ```
 
+## Updates
+
+* Redis API
+
 ## License 
 
 (The MIT License)
