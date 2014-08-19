@@ -24,6 +24,9 @@ var rabbit = require('server-tools').rabbit;
 
 ## Updates
 
+*19 Aug 2014*
+
+* Limits and Sorting on Mongo Repository
 * Redis API
 
 ## License 
