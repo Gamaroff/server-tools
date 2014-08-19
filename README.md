@@ -20,15 +20,13 @@ var logger = require('server-tools').logger;
 var mailer = require('server-tools').mailer;
 var blob = require('server-tools').blob_storage;
 var rabbit = require('server-tools').rabbit;
-var sockets = require('server-tools').sockets;
-
 ```
 
 ## License 
 
 (The MIT License)
 
-Copyright (c) 2013 gamaroff &lt;lorien@gamaroff.org&gt;
+Copyright (c) 2014 gamaroff &lt;lorien@gamaroff.org&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
