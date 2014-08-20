@@ -28,6 +28,7 @@ var rabbit = require('server-tools').rabbit;
 
 * Limits and Sorting on Mongo Repository
 * Redis API
+* CSV to JSON method
 
 ## License 
 
