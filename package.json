@@ -1,6 +1,6 @@
 {
     "name"           : "server-tools",
-    "version"        : "0.2.2",
+    "version"        : "0.2.3",
     "description"    : "Library of common stuff for projects",
     "main"           : "index.js",
     "scripts"        : {
@@ -18,7 +18,7 @@
     "dependencies"   : {
         "amqp"      : "~0.2.0",
         "azure"     : "~0.6.9-zumo",
-        "csv"            : "~0.4.0",
+        "csv"       : "~0.3.6",
         "moment"    : "~2.8.1",
         "mongoose"  : "~3.8.15",
         "node-uuid" : "~1.4.1",
@@ -50,10 +50,10 @@
             "name": "Hylton Tocker"
         }
     ],
-    "licenses": [
+    "licenses"       : [
         {
             "type": "MIT",
-            "url": "http://github.com/postwait/node-amqp/raw/master/LICENSE-MIT"
+            "url" : "http://github.com/postwait/node-amqp/raw/master/LICENSE-MIT"
         }
     ]
 }
