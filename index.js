@@ -8,12 +8,12 @@ var promise = require('./lib/promise');
 var redis = require('./lib/redis');
 var rabbit = require('./lib/rabbit');
 var mailer = require('./lib/mailer');
-var csv = require('./lib/csv');
+var csvTools = require('./lib/csvTools');
 var prototypes = require('./lib/prototypes');
 
 module.exports = {
     tools           : tools,
-    csv             : csv,
+    csv_tools       : csvTools,
     mongo_repository: mongoRepo,
     mongo_model     : mongoModel,
     logger          : logger,
