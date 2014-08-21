@@ -24,6 +24,10 @@ var rabbit = require('server-tools').rabbit;
 
 ## Updates
 
+*21 Aug 2014*
+
+* Amazon - DynamoDB object
+
 *19 Aug 2014*
 
 * Limits and Sorting on Mongo Repository

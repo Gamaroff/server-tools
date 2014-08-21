@@ -9,9 +9,11 @@ var redis = require('./lib/redis');
 var rabbit = require('./lib/rabbit');
 var mailer = require('./lib/mailer');
 var csvTools = require('./lib/csvTools');
+var amazon = require('./lib/amazon');
 var prototypes = require('./lib/prototypes');
 
 module.exports = {
+    amazon           : amazon,
     tools           : tools,
     csv_tools       : csvTools,
     mongo_repository: mongoRepo,

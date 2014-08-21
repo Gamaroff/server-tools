@@ -1,6 +1,6 @@
 {
     "name"           : "server-tools",
-    "version"        : "0.2.3",
+    "version"        : "0.2.4",
     "description"    : "Library of common stuff for projects",
     "main"           : "index.js",
     "scripts"        : {
@@ -17,6 +17,7 @@
     },
     "dependencies"   : {
         "amqp"      : "~0.2.0",
+        "aws-sdk"   : "~2.0.14",
         "azure"     : "~0.6.9-zumo",
         "csv"       : "~0.3.6",
         "moment"    : "~2.8.1",
