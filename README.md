@@ -24,6 +24,10 @@ var rabbit = require('server-tools').rabbit;
 
 ## Updates
 
+*1 Sep 2014*
+
+* Node Mailer version
+
 *21 Aug 2014*
 
 * Amazon - DynamoDB object
