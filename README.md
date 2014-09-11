@@ -24,16 +24,14 @@ var rabbit = require('server-tools').rabbit;
 
 ## Updates
 
-*1 Sep 2014*
+* Sep 2014*
 
 * Node Mailer version
+* Make ID Method
 
-*21 Aug 2014*
+* Aug 2014*
 
 * Amazon - DynamoDB object
-
-*19 Aug 2014*
-
 * Limits and Sorting on Mongo Repository
 * Redis API
 * CSV to JSON method
