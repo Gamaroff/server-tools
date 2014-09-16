@@ -30,7 +30,7 @@ var rabbit = require('server-tools').rabbit;
 * Make ID Method
 * Remove config dependency
 * Copy File - Tools
-* Upgrade Azure
+* Remove Azure
 
 * Aug 2014*
 
