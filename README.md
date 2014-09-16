@@ -29,6 +29,7 @@ var rabbit = require('server-tools').rabbit;
 * Node Mailer version
 * Make ID Method
 * Remove config dependency
+* Copy File - Tools
 
 * Aug 2014*
 

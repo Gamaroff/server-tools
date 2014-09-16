@@ -1,60 +1,61 @@
 {
-    "name"           : "server-tools",
-    "version"        : "0.2.10",
-    "description"    : "Library of common stuff for projects",
-    "main"           : "index.js",
-    "scripts"        : {
-        "test"      : "make test",
-        "blanket"   : {
-            "pattern"         : "//^((?!(node_modules|test)).)*$/",
-            "data-cover-flags": {
-                "debug": false
-            }
-        },
-        "travis-cov": {
-            "threshold": 90
-        }
+  "name": "server-tools",
+  "version": "0.2.11",
+  "description": "Library of common stuff for projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test",
+    "blanket": {
+      "pattern": "//^((?!(node_modules|test)).)*$/",
+      "data-cover-flags": {
+        "debug": false
+      }
     },
-    "dependencies"   : {
-        "amqp"      : "~0.2.0",
-        "aws-sdk"   : "~2.0.14",
-        "azure"     : "~0.6.9-zumo",
-        "csv"       : "~0.3.6",
-        "moment"    : "~2.8.1",
-        "mongoose"  : "~3.8.15",
-        "node-uuid" : "~1.4.1",
-        "nodemailer": "~1.2.0",
-        "q"         : "~1.0.1",
-        "underscore": "~1.6.0"
-    },
-    "devDependencies": {
-        "chai"               : "~1.9.1",
-        "coveralls"          : "*",
-        "mocha"              : "~1.21.4",
-        "mocha-lcov-reporter": "*",
-        "should"             : "*",
-        "travis-cov"         : "*"
-    },
-    "repository"     : {
-        "type": "git",
-        "url" : "git://github.com/gamaroff/server-tools.git"
-    },
-    "keywords"       : [
-        "server-tools"
-    ],
-    "engines"        : {
-        "node": ">= 0.10.0"
-    },
-    "author"         : "gamaroff <lorien@gamaroff.org>",
-    "contributors"   : [
-        {
-            "name": "Hylton Tocker"
-        }
-    ],
-    "licenses"       : [
-        {
-            "type": "MIT",
-            "url" : "http://github.com/postwait/node-amqp/raw/master/LICENSE-MIT"
-        }
-    ]
+    "travis-cov": {
+      "threshold": 90
+    }
+  },
+  "dependencies": {
+    "amqp": "~0.2.0",
+    "aws-sdk": "~2.0.14",
+    "azure": "~0.6.9-zumo",
+    "csv": "~0.3.6",
+    "moment": "~2.8.1",
+    "mongoose": "~3.8.15",
+    "ncp": "^0.6.0",
+    "node-uuid": "~1.4.1",
+    "nodemailer": "~1.2.0",
+    "q": "~1.0.1",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "coveralls": "*",
+    "mocha": "~1.21.4",
+    "mocha-lcov-reporter": "*",
+    "should": "*",
+    "travis-cov": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gamaroff/server-tools.git"
+  },
+  "keywords": [
+    "server-tools"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "gamaroff <lorien@gamaroff.org>",
+  "contributors": [
+    {
+      "name": "Hylton Tocker"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/postwait/node-amqp/raw/master/LICENSE-MIT"
+    }
+  ]
 }
