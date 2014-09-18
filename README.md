@@ -31,6 +31,7 @@ var rabbit = require('server-tools').rabbit;
 * Remove config dependency
 * Copy File - Tools
 * Remove Azure
+* Enhanced Replace All method
 
 * Aug 2014*
 
