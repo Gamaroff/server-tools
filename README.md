@@ -18,13 +18,12 @@ var promises = require('server-tools').promises;
 var promise = require('server-tools').promise;
 var logger = require('server-tools').logger;
 var mailer = require('server-tools').mailer;
-var blob = require('server-tools').blob_storage;
 var rabbit = require('server-tools').rabbit;
 ```
 
 ## Updates
 
-* Sep 2014*
+Sep 2014
 
 * Node Mailer version
 * Make ID Method
@@ -32,8 +31,10 @@ var rabbit = require('server-tools').rabbit;
 * Copy File - Tools
 * Remove Azure
 * Enhanced Replace All method
+* Rounding of Minutes
+* Writing files
 
-* Aug 2014*
+Aug 2014
 
 * Amazon - DynamoDB object
 * Limits and Sorting on Mongo Repository
