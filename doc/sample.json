@@ -8,16 +8,16 @@
             "fields": {
                 "Source.System.TRID"                      : ["TR-A-MCRM-7"],
                 "Person.PersonReferences.Type"            : ["IDN"],
-                "Person.Surname"                          : ["Crane-Tielak"],
-                "Person.PersonReferences.Value"           : ["6303210124089"],
-                "Source.System.System"                    : ["CRM 2013"],
+                "Person.Surname"                          : ["NAME"],
+                "Person.PersonReferences.Value"           : ["234234234"],
+                "Source.System.System"                    : ["CRM"],
                 "Person.DateOfBirth"                      : ["1963-03-21 00:00:00"],
                 "Person.Contacts.EmailAddresses.EmailType": ["EMAIL1", "EMAIL2"],
                 "Source.SystemRef"                        : ["FE0BD8A9-6EA8-E011-8637-0019BB3F45E0"],
-                "Person.Contacts.EmailAddresses.Value"    : ["jhöll@fnb.co.za", "jhöll@fnb.co.za"],
-                "Person.FirstName"                        : ["Jacqueleen"],
+                "Person.Contacts.EmailAddresses.Value"    : ["erterter@fnb.co.za", "ertgfddf@fnb.co.za"],
+                "Person.FirstName"                        : ["NAME"],
                 "Person.Contacts.Phones.PhoneType"        : ["FAX", "CELL", "WORK", "HOME"],
-                "Person.Contacts.Phones.Value"            : ["0113713219", "27845811138", "0126560262", "0126549451"]
+                "Person.Contacts.Phones.Value"            : ["88888", "777777", "6666", "5555"]
             }
         },
         {
@@ -28,16 +28,16 @@
             "fields": {
                 "Source.System.TRID"                      : ["TR-A-MCRM-7"],
                 "Person.PersonReferences.Type"            : ["IDN"],
-                "Person.Surname"                          : ["Crane-Tielak"],
+                "Person.Surname"                          : ["Nme2"],
                 "Person.PersonReferences.Value"           : ["6303210124"],
                 "Source.System.System"                    : ["CRM 2013"],
-                "Person.DateOfBirth"                      : ["1963-03-21 00:00:00"],
+                "Person.DateOfBirth"                      : ["1987-03-21 00:00:00"],
                 "Person.Contacts.EmailAddresses.EmailType": ["EMAIL1", "EMAIL2"],
                 "Source.SystemRef"                        : ["4B9777D9-847E-4EBC-BD77-E4BBADCC7AC3"],
-                "Person.Contacts.EmailAddresses.Value"    : ["jhöll@fnb.co.za", "jhöll@fnb.co.za"],
-                "Person.FirstName"                        : ["Jacqueleen"],
+                "Person.Contacts.EmailAddresses.Value"    : ["ffffff@fnb.co.za", "dddd@fnb.co.za"],
+                "Person.FirstName"                        : ["Name3"],
                 "Person.Contacts.Phones.PhoneType"        : ["FAX", "CELL", "WORK", "HOME"],
-                "Person.Contacts.Phones.Value"            : ["0113713219", "0845811138", "0113713929", "0126549451"]
+                "Person.Contacts.Phones.Value"            : ["333333", "2222", "33331", "111111"]
             }
         }
     ]
