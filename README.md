@@ -23,6 +23,10 @@ var rabbit = require('server-tools').rabbit;
 
 ## Updates
 
+Oct 2014
+
+* Build Object and Assign Object Property
+
 Sep 2014
 
 * Node Mailer version
