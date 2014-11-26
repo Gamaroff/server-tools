@@ -1,6 +1,6 @@
 {
   "name": "server-tools",
-  "version": "0.2.23",
+  "version": "0.2.24",
   "description": "Library of common stuff for projects",
   "main": "index.js",
   "scripts": {
