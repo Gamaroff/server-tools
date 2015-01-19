@@ -23,6 +23,11 @@ var rabbit = require('server-tools').rabbit;
 
 ## Updates
 
+January 2015
+
+* Refactor
+* Add cassandra repository wrapper
+
 Oct 2014
 
 * Build Object and Assign Object Property

@@ -10,17 +10,19 @@ var rabbit = require('./lib/rabbit');
 var mailer = require('./lib/mailer');
 var csvTools = require('./lib/csvTools');
 var prototypes = require('./lib/prototypes');
+var cassandraRepo = require('./lib/cassandraRepository');
 
 module.exports = {
-    tools           : tools,
-    csv_tools       : csvTools,
-    mongo_repository: mongoRepo,
-    mongo_model     : mongoModel,
-    logger          : logger,
-    mailer          : mailer,
-    blob_storage    : blob,
-    promises        : promises,
-    promise         : promise,
-    redis           : redis,
-    rabbit          : rabbit
+	tools                : tools,
+	csv_tools            : csvTools,
+	cassandra_repository : cassandraRepo,
+	mongo_repository     : mongoRepo,
+	mongo_model          : mongoModel,
+	logger               : logger,
+	mailer               : mailer,
+	blob_storage         : blob,
+	promises             : promises,
+	promise              : promise,
+	redis                : redis,
+	rabbit               : rabbit
 };
