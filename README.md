@@ -27,6 +27,7 @@ January 2015
 
 * Refactor
 * Add cassandra repository wrapper
+* Cassandra Partioning and Clustering
 
 Oct 2014
 
