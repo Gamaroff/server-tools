@@ -29,6 +29,10 @@ January 2015
 * Add cassandra repository wrapper
 * Cassandra Partioning and Clustering
 
+Feb 2015
+
+* Add skip to Mongo Repo
+
 Oct 2014
 
 * Build Object and Assign Object Property
