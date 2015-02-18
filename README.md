@@ -32,6 +32,7 @@ January 2015
 Feb 2015
 
 * Add skip to Mongo Repo
+* Delete redis key
 
 Oct 2014
 
