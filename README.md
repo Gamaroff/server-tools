@@ -23,16 +23,20 @@ var rabbit = require('server-tools').rabbit;
 
 ## Updates
 
-January 2015
+May 2015
 
-* Refactor
-* Add cassandra repository wrapper
-* Cassandra Partioning and Clustering
+* Redis List Methods
 
 Feb 2015
 
 * Add skip to Mongo Repo
 * Delete redis key
+
+January 2015
+
+* Refactor
+* Add cassandra repository wrapper
+* Cassandra Partioning and Clustering
 
 Oct 2014
 
