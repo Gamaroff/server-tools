@@ -61,6 +61,10 @@ Aug 2014
 * Redis API
 * CSV to JSON method
 
+Sep 2015
+
+* Save Mongo fix for existing document
+
 ## License 
 
 (The MIT License)
